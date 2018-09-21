@@ -1,0 +1,50 @@
+*.class
+.classpath
+.project
+.settings
+default.conf
+logback-test.xml
+
+# logs
+logs/*
+*/logs/*
+npm-debug.log
+yarn-error.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.sbtopts
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+bin/
+
+# Intellij-IDEA specific
+.idea
+*.iml
+*.ipr
+*.iws
+
+# VisualStudioCode specific
+.vscode/
+
+# OSX
+.DS_Store
+
+# Vim
+*.swp
+
+# ensime
+.ensime*
+
+# libsigar
+native/
